@@ -1,0 +1,30 @@
+[project]
+name = "synapse"
+version = "0.1.0"
+description = "Synapse using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.120.1,<1.0.0",
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "sse-starlette>=1.6.5",
+    "pydantic>=2.0.0",
+    "langchain-litellm>=0.2.2"
+]
+
+[project.scripts]
+kickoff = "synapse.main:kickoff"
+run_crew = "synapse.main:kickoff"
+plot = "synapse.main:plot"
+serve = "synapse.api:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "flow"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/synapse"]

@@ -1,0 +1,27 @@
+Case_briefing_task:
+  description: >
+    Introduce the victim and the core crime without revealing the culprit & motive from {Plot} in concise 4-5 lines as you are a detective. Utilize the entire case file as input to ensure all 
+    details are consistent with the established ground truth. The goal is to create an immersive starting point that effectively misdirects the player while being 
+    factually consistent.
+  expected_output: >
+    {
+      "CaseBriefing": {
+        "CrimeSceneInvestigator": ""
+      }
+    }
+  agent: Case_briefing_agent
+
+Case_briefing_task_V2:
+  description: >
+    Introduce the victim and the core crime without revealing the culprit & motive from {Plot} in concise 4-5 lines as you are a detective. Describe the events of the crime 
+    from the victim's limited and often mistaken point of view, incorporating details from the culprit's {Execution Plan} as the victim would have perceived them. 
+    Inadvertently reinforce the culprit's alibi or innocent persona, reflecting the effectiveness of the primaryAlibi from the {cover-up plan}. Utilize the entire case file as input to ensure all 
+    details are consistent with the established ground truth. The goal is to create an immersive starting point that effectively misdirects the player while being 
+    factually consistent with the victim's experience.
+  expected_output: >
+    {
+      "CaseBriefing": {
+        "CrimeSceneInvestigator": ""
+      }
+    }
+  agent: 

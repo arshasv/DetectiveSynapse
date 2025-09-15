@@ -1,0 +1,28 @@
+Generate_bullseye_task:
+  description: >
+    Establishing the "bullseye" for {Settings} the unchangeable core of the story, which can be expressed as a simple formula: Character A (the culprit) (some crime) Character B (the victim) for 
+    Reason C (the motive). To devise complex, innovative plots and to present age-old themes from a fresh perspective The core puzzle—the "whodunit"—must be both surprising and unique 
+    to captivate a modern, genre-savvy audience.
+  expected_output: >
+    {
+      "bullseyeConcept": {
+        "culprit": {
+          "name": "",
+          "profile": ""
+        },
+        "victim": {
+          "name": "",
+          "profile": ""
+        },
+        "crime": {
+          "location": "",
+          "object": "",
+          "description": ""
+        },
+        "motive": {
+          "primary": "",
+          "description": ""
+        }
+      }
+    }
+  agent: Concept_architect_agent
