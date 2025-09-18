@@ -3,6 +3,10 @@ from crewai.project import CrewBase, agent, crew, task
 from crewai.agents.agent_builder.base_agent import BaseAgent
 from typing import List
 from synapse.utils.llm import llm
+from pydantic import BaseModel
+
+class Briefing(BaseModel):
+    CrimeSceneInvestigator : str
 
 @CrewBase
 class BriefingCrew():
@@ -26,6 +30,7 @@ class BriefingCrew():
     def Case_briefing(self) -> Task:
         return Task(
             config=self.tasks_config['Case_briefing_task'],
+            output_json=Briefing
         )
 
     @crew
