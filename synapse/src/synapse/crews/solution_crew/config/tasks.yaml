@@ -1,0 +1,18 @@
+Generate_solution_task:
+  description: >
+    Analyze the crime plan from {Bullseye},{ExecutionPlan},{CoverupPlan} and identify the logical flaws, overlooked evidence, and psychological tells that make the case solvable.
+    Create a solvablepath to the crime, detailing the sequence of events, key evidence, and character actions that lead to the resolution of the mystery. Clues must be found by just 
+    interrogating the characters not by any other means.
+  expected_output: >
+    {
+      "solvablePath": {
+        "keyFlaws": [
+          { "clueID": "", "description": "" },
+          .
+          .
+          .
+          .
+        ]
+      }
+    }
+  agent: Solution_agent

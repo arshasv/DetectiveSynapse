@@ -1,8 +1,11 @@
 #!/usr/bin/env python
+import json
+import os
 from pydantic import BaseModel, Field
 from crewai.flow import Flow, listen, start
 from synapse.crews.plot_crew.plot_crew import PlotCrew
 from synapse.crews.briefing_crew.briefing_crew import BriefingCrew
+from synapse.crews.solution_crew.solution_crew import SolutionCrew
 from synapse.utils.json_cleaner import JSONCleaner
 from synapse.utils import JSONExtractor
 
@@ -23,9 +26,9 @@ class States(BaseModel):
     Plot: str = ""
     BriefingInputs: str = ""
     Briefing: str = ""
-
-    
-
+    Bullseye: str = ""
+    ExecutionPlan: str = ""
+    CoverupPlan: str = ""
 
 class PlotFlow(Flow[States]):
 
@@ -53,8 +56,6 @@ class PlotFlow(Flow[States]):
         print("Saving Plot")
         with open("Plot.json", "w") as f:
             f.write(self.state.Plot)
-    
-
 
 class BriefingFlow(Flow[States]):
 
@@ -95,12 +96,52 @@ class BriefingFlow(Flow[States]):
         self.state.Briefing = cleaned_briefing
         print("Briefing saved", self.state.Briefing)
 
-def kickoff():
-    plot_flow = PlotFlow()
-    plot_flow.kickoff()
+class SolutionFlow(Flow[States]):
+    @start()
+    def Start(self):
+        print("Starting Solution Flow")
 
-    briefing_flow = BriefingFlow()
-    briefing_flow.kickoff()
+    @listen(Start)
+    def load_json_files(self):
+        print("Loading JSON files")
+        try:
+            # Read Plot.json and store in Bullseye
+            with open("Plot.json", "r") as f:
+                self.state.Bullseye = f.read()
+            
+            # Read Execution_plan.json and store in ExecutionPlan
+            with open("Execution_plan.json", "r") as f:
+                self.state.ExecutionPlan = f.read()
+            
+            # Read Coverup_plan.json and store in CoverupPlan
+            with open("Coverup_plan.json", "r") as f:
+                self.state.CoverupPlan = f.read()
+            
+            print("JSON files loaded successfully")
+        except FileNotFoundError as e:
+            print(f"Error loading JSON files: {e}")
+        except Exception as e:
+            print(f"Unexpected error loading JSON files: {e}")
+    
+    @listen(load_json_files)
+    def generate_Solution(self):
+        print("Generating Solution")
+        result = (
+            SolutionCrew()
+            .crew()
+            .kickoff(inputs={"Bullseye": self.state.Bullseye, "ExecutionPlan": self.state.ExecutionPlan, "CoverupPlan": self.state.CoverupPlan})
+        )
+
+
+def kickoff():
+    # plot_flow = PlotFlow()
+    # plot_flow.kickoff()
+
+    # briefing_flow = BriefingFlow()
+    # briefing_flow.kickoff()
+
+    solution_flow = SolutionFlow()
+    solution_flow.kickoff()
 
 
 def plot():

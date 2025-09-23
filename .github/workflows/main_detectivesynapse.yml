@@ -58,4 +58,4 @@ jobs:
         with:
           app-name: 'DetectiveSynapse'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4FC1CA9328D04363BC15A25AE1ADF8BB }}
+          publish-profile: ${ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4FC1CA9328D04363BC15A25AE1ADF8BB }
