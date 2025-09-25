@@ -20,6 +20,14 @@ dist/
 build/
 out.txt/
 *.egg-info/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.cache/
+
 
 
 
