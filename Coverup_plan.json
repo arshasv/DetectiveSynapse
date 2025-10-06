@@ -1,0 +1,14 @@
+{
+    "coverUpPlan": {
+      "primaryAlibi": "The culprit will feign panic and confusion, claiming the 'faulty' kitchen vent must have caused the alarm. She will be seen helping the victim, offering him water and fanning the air, reinforcing her role as a caring employee, not a thief.",
+      "misdirectionPlan": {
+        "target": "The victim's estranged son, Sameer Menon.",
+        "action": "Days before the theft, Maya 'accidentally' mentions to the building's security guard that she saw the son arguing with his father about money near the flat. This plants a seed of suspicion."
+      },
+      "evidenceManagement": {
+        "obfuscation": "The stolen coins are temporarily hidden in a large sack of rice in the kitchen pantry, a place no one would think to look.",
+        "disposal": "The small fan and the empty spice packet will be disposed of in the building's main garbage chute, mixed with other kitchen waste."
+      }
+    }
+  }
+  

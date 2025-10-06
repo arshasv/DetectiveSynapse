@@ -1,0 +1,21 @@
+{
+    "executionPlan": {
+      "executionTitle": "The Spice Diversion",
+      "methodology": "The culprit uses her knowledge of the victim's routine and the flat's layout. She creates a diversion by intentionally using an exotic, overpowering spice (Asafoetida) in the kitchen's air vent, which triggers the victim's smoke alarm and his allergies. While the victim is occupied dealing with the alarm and his coughing fit in the living room, she accesses his study and steals the coins from a known, but not obvious, hiding place.",
+      "toolsUsed": [
+        { "toolName": "High-potency Asafoetida powder", "purpose": "To create a pungent, non-toxic 'smoke' that will reliably trigger the sensitive smoke alarm and irritate the victim." },
+        { "toolName": "A small, handheld fan", "purpose": "To direct the spice powder effectively into the air vent leading to the living room." },
+        { "toolName": "A library ladder (already in the study)", "purpose": "To access the coins, which are hidden inside a hollowed-out book on a high shelf." }
+      ],
+      "crimeLocation": {
+        "primaryLocation": "Anand Menon's luxury flat, Panampilly Nagar, Kochi",
+        "specificArea": "The study, while the victim is distracted in the living room."
+      },
+      "crimeTimeline": [
+         { "timestamp": "2025-08-04T19:30:00+05:30", "event": "Maya begins preparing dinner as usual." },
+         { "timestamp": "2025-08-04T20:05:00+05:30", "event": "THE CRIME: Maya uses the fan to blow the spice powder into the vent. The smoke alarm in the living room is triggered." },
+         { "timestamp": "2025-08-04T20:06:00+05:30", "event": "While the victim is disarming the alarm and coughing, Maya slips into the study, uses the ladder to retrieve the coins, and hides them in a container of rice in the kitchen pantry." }
+      ]
+    }
+  }
+  

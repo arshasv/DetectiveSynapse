@@ -1,0 +1,21 @@
+{
+  "bullseyeConcept": {
+    "culprit": {
+      "name": "Maya Pillai",
+      "profile": "The victim's seemingly loyal and underpaid personal chef."
+    },
+    "victim": {
+      "name": "Anand Menon",
+      "profile": "A wealthy, retired NRI businessman who collects rare historical artifacts."
+    },
+    "crime": {
+      "location": "Luxury Flat in Kochi",
+      "object": "A set of antique Travancore-era gold coins.",
+      "description": "Theft of a specific, high-value collection."
+    },
+    "motive": {
+      "primary": "Family Debt",
+      "description": "The culprit, Maya, is not a greedy thief. Her family in the village is about to lose their ancestral land due to a predatory loan. Stealing the coins is her desperate, last-resort attempt to save her family's home and honor."
+    }
+  }
+}

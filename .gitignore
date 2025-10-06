@@ -3,7 +3,6 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.json
 .Python
 lib/
 .DS_Store
@@ -18,16 +17,4 @@ env/
 htmlcov/
 dist/
 build/
-out.txt/
 *.egg-info/
-.venv/
-__pycache__/
-*.pyc
-*.pyo
-.pytest_cache/
-.mypy_cache/
-.cache/
-
-
-
-
