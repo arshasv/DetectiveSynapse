@@ -4,6 +4,7 @@ from crewai.agents.agent_builder.base_agent import BaseAgent
 from typing import List
 from synapse.utils.llm import llm
 from pydantic import BaseModel
+from synapse.utils.llm import gemini_creative
 
 class Briefing(BaseModel):
     CrimeSceneInvestigator : str
@@ -23,7 +24,7 @@ class BriefingCrew():
     def Case_briefing_agent(self) -> Agent:
         return Agent(
             config=self.agents_config['Case_briefing_agent'],
-            llm=llm
+            llm=gemini_creative()
         )
 
     @task
@@ -38,8 +39,8 @@ class BriefingCrew():
         """Creates the BriefingCrew crew"""
 
         return Crew(
-            agents=self.agents, 
-            tasks=self.tasks, 
+            agents=self.agents,
+            tasks=self.tasks,
             process=Process.sequential,
             verbose=True,
         )

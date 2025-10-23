@@ -1,0 +1,304 @@
+{
+  "suspectDossiers": [
+    {
+      "characterID": "C01",
+      "name": "Elias Vance",
+      "gender": "Male",
+      "roleInStory": "suspect",
+      "biography": "A struggling conceptual artist in his late 20s, deeply empathetic but often misunderstood. He has a strained and complex relationship with his father, Arthur. Elias is not a criminal by nature, but is driven by a profound, almost desperate, need for emotional truth and validation regarding his past, particularly concerning a suppressed childhood trauma.",
+      "statedAlibi": "Attending a remote, 'off-grid' artist's retreat upstate. Confirmed by pre-arranged check-ins with fellow artists and social media posts (pre-scheduled to appear organic). Maintained a 'no-signal' narrative for his phone during the critical window.",
+      "alibiFlaw": "Fellow artists at the retreat, particularly Ben Carter (C06), might recall Elias making or receiving calls/texts during the 'no-signal' window, or leaving the retreat earlier than publicly stated. His 'untraceable' travel methods could be exposed by a ride-share driver or friend (CF1, CF2, CF14).",
+      "trueAction": "Traveled from the artist's retreat to Arthur's penthouse, executed the precise theft of the drawing, and returned to the retreat, adhering to a meticulously planned timeline.",
+      "connectionToCase": "Son of the victim, Arthur Vance. The perpetrator of the theft, driven by a deep personal motive linked to the stolen object's symbolic value.",
+      "initialStatementToPolice": "When contacted by authorities regarding the missing item from his father's apartment, Elias expressed deep concern for his father's distress, suggesting the incident was 'bizarre' and 'unexplainable.' He subtly mentioned recent news about 'smart home vulnerabilities' and 'ghost in the machine' glitches affecting high-tech residences."
+    },
+    {
+      "characterID": "C02",
+      "name": "Arthur Vance",
+      "gender": "Male",
+      "roleInStory": "victim",
+      "biography": "Elias's father. A highly successful, emotionally guarded, and somewhat narcissistic corporate executive in his late 50s. His ultra-modern Tribeca penthouse is a testament to minimalist luxury, filled with 'curated' art, including a prominent wall of framed childhood drawings from Elias, displayed almost as trophies of his 'successful' parenting.",
+      "statedAlibi": "Away on a pre-scheduled international business trip, confirmed by flight details and hotel bookings.",
+      "alibiFlaw": "None; he is the victim and was demonstrably out of the country.",
+      "trueAction": "Away on an international business trip, completely unaware of the incident until his return.",
+      "connectionToCase": "Father of Elias Vance. Owner of the stolen drawing and the apartment where the theft occurred. The target of Elias's symbolic act.",
+      "initialStatementToPolice": "Upon returning home, Arthur discovered that a specific framed drawing was missing from his art wall. He reported no signs of forced entry, but noted that his high-tech security system logs showed a brief, inexplicable 'communication anomaly' during the estimated time of the incident."
+    },
+    {
+      "characterID": "C03",
+      "name": "Julian Thorne",
+      "gender": "Male",
+      "roleInStory": "suspect",
+      "biography": "Arthur Vance's smart home and security system integrator. Julian, in his mid-40s, prides himself on his 'unbreakable' systems but is known for cutting corners on documentation and sometimes over-promising capabilities. He's currently facing minor gambling debts, which he keeps hidden.",
+      "statedAlibi": "Claims to have been working remotely from his home office on another high-profile client's system during the time of the incident. Provides remote access logs for that project.",
+      "alibiFlaw": "The 'implausible' nature of a 15-20 minute RF glitch in a supposedly 'unbreakable' system is highly suspicious (CF3). His financial difficulties could provide a motive for a staged 'system failure' or even an inside job. Questioning his clients about his remote work might reveal discrepancies.",
+      "trueAction": "Was at his home office, working remotely, unaware of the specific incident but potentially negligent in his system's design or maintenance.",
+      "connectionToCase": "Designed, installed, and maintains Arthur Vance's high-tech security system. The 'glitch' in the system directly implicates his work.",
+      "initialStatementToPolice": "Julian Thorne expressed strong confidence in the integrity of the installed security system, stating that any 'glitch' would be a rare, self-correcting anomaly, likely an external interference or a transient software bug, not a security breach. He emphasized the system's robust design against forced entry."
+    },
+    {
+      "characterID": "C04",
+      "name": "Clara Hayes",
+      "gender": "Female",
+      "roleInStory": "suspect",
+      "biography": "Arthur Vance's meticulous and seemingly loyal personal assistant, in her early 30s. She manages his schedule, finances, and often has access to his apartment for various tasks, including overseeing cleaners. Beneath her composed exterior, she harbors a quiet resentment for Arthur's demanding nature and his tendency to take her efforts for granted. She possesses a legitimate key to the penthouse.",
+      "statedAlibi": "Was at home, preparing for Arthur's return from his international trip, organizing documents and responding to emails. Claims to have been online for work during the entire critical window.",
+      "alibiFlaw": "Her absolute access to the apartment via a legitimate key (CF4) and intimate knowledge of Arthur's schedule make her a prime suspect. Her online activity logs might not fully corroborate her 'working' claims, or she might have left her residence for a brief period undetected. Her resentment could be a hidden motive.",
+      "trueAction": "Was at home, genuinely working on Arthur's affairs, but feeling increasingly undervalued and frustrated by her employer.",
+      "connectionToCase": "Arthur Vance's personal assistant. Has a legitimate key to the apartment and detailed knowledge of Arthur's schedule and the apartment's layout. She also handled the logistics for the dinner where Elias placed the RF emitter.",
+      "initialStatementToPolice": "Clara Hayes confirmed Arthur Vance's international travel schedule. She described the apartment as always being meticulously kept and emphasized the sophistication of the security system. She also mentioned hearing a rumor that Julian Thorne, the security installer, had a past incident with a client where a 'system error' led to an unexpected access issue."
+    },
+    {
+      "characterID": "C05",
+      "name": "Lena Petrova",
+      "gender": "Female",
+      "roleInStory": "suspect",
+      "biography": "A seasoned and influential art dealer in her late 40s who has championed Elias Vance's conceptual art. She sees significant potential in Elias but also subtly guides his artistic direction for her own financial and reputational gain. She believes strongly in the power of 'artistic statements' and has previously discussed provocative, conceptual art 'interventions' with Elias.",
+      "statedAlibi": "Attending a high-profile international art fair in Miami. Provides verifiable flight details, hotel confirmations, and numerous social media posts from the event.",
+      "alibiFlaw": "While her physical alibi is strong, her influence on Elias's conceptual thinking and her history of encouraging provocative art (CF13) could make her an accessory or an instigator. She might have provided logistical advice or resources for a 'conceptual' act, even if she wasn't physically present.",
+      "trueAction": "Was genuinely at the art fair in Miami, actively promoting her gallery and artists, including Elias's work.",
+      "connectionToCase": "Elias Vance's art dealer and mentor. Shares a philosophical alignment with Elias regarding conceptual art, potentially inspiring or subtly encouraging his actions.",
+      "initialStatementToPolice": "Upon learning of the incident after her return, Lena Petrova expressed surprise at the 'disappearance' of the drawing. She mused that, given Arthur Vance's curated collection and Elias's artistic leanings, it could almost be interpreted as an 'avant-garde performance piece' or a 'conceptual statement' by an unknown artist, specifically targeting Arthur's collection."
+    },
+    {
+      "characterID": "C06",
+      "name": "Ben Carter",
+      "gender": "Male",
+      "roleInStory": "witness",
+      "biography": "A younger, impressionable artist in his early 20s who greatly admires Elias Vance. He attended the same artist's retreat upstate and often seeks Elias's artistic advice. Ben is generally well-meaning but prone to exaggeration and sometimes struggles with precise recall, especially when trying to impress others.",
+      "statedAlibi": "At the artist's retreat upstate, focused on his own projects. Confirmed by the retreat organizer and other attendees.",
+      "alibiFlaw": "Ben might inadvertently contradict Elias's 'no-signal' narrative or the exact times Elias was seen at the retreat (CF1). His desire to appear knowledgeable or helpful could lead him to misremember details about Elias's phone usage or presence during the critical hours.",
+      "trueAction": "Was at the artist's retreat, working on his own art, occasionally interacting with Elias.",
+      "connectionToCase": "Fellow artist and acquaintance of Elias Vance at the retreat. Can corroborate Elias's general presence at the retreat but might offer inconsistent details regarding Elias's specific activities or phone usage.",
+      "initialStatementToPolice": "Ben Carter confirmed he was at the upstate artist's retreat during the specified period. He recalled the general atmosphere was focused on creative work, and everyone was largely 'off-grid.' He remembered Elias Vance being present, often deep in thought, working on a new conceptual project."
+    },
+    {
+      "characterID": "C07",
+      "name": "David Chen",
+      "gender": "Male",
+      "roleInStory": "witness",
+      "biography": "A long-serving and generally reliable doorman at Arthur Vance's Tribeca building, in his late 50s. David is observant of regular residents but can be distracted by personal calls or casual gossip. He has a good memory for faces but often struggles with precise timestamps, especially for events that seemed unremarkable at the time.",
+      "statedAlibi": "On duty at the building's front desk during the hours of the incident, performing routine tasks and monitoring security feeds.",
+      "alibiFlaw": "While on duty, David might misremember the exact date or time of an unusual entry or exit by Elias Vance (CF14). His attention could have been diverted during a critical window, leading to gaps in his observation logs or memory. He might also have a vague recollection of a 'blip' on the security monitor that he dismissed as routine (CF7).",
+      "trueAction": "Was on duty at the building entrance, performing his routine tasks, but occasionally distracted.",
+      "connectionToCase": "Doorman at Arthur Vance's building. Controls and monitors building access. Might have seen Elias Vance entering or exiting the building during the crime window.",
+      "initialStatementToPolice": "David Chen stated he was on duty during the night in question. He confirmed no unusual external visitors or forced entries were observed. He recalled that the building's internal security system had a brief 'blip' on the monitor that night, but it self-corrected quickly and was logged as a minor system anomaly, which he didn't consider significant at the time."
+    }
+  ],
+  "clueManifest": [
+    {
+      "clueID": "CM01",
+      "clueTitle": "Retreat Witness Testimony Discrepancy",
+      "clueType": "Witness Testimony",
+      "discoveryMethod": "Interrogating Ben Carter (C06) and the artist retreat organizer about Elias Vance's (C01) specific activities, phone usage, and exact whereabouts during the night of the theft.",
+      "discoveryLocation": "Artist's retreat upstate, during interviews with attendees and staff.",
+      "description": "Ben Carter (C06), a fellow artist, vaguely recalls Elias making a phone call or checking his device around 3:00 AM on the night of the theft, or a staff member notes Elias's vehicle was briefly absent from the parking area for a few hours, contradicting Elias's 'no-signal' and continuous presence alibi.",
+      "relevance": "Directly undermines Elias's alibi, placing him in a window consistent with travel to and from New York City during the crime.",
+      "difficulty": "Medium"
+    },
+    {
+      "clueID": "CM02",
+      "clueTitle": "Elias's Phone Activity Log",
+      "clueType": "Digital Record",
+      "discoveryMethod": "Subpoenaing Elias Vance's (C01) phone carrier records for data transmission, network pings, or GPS location data during the critical crime window.",
+      "discoveryLocation": "Elias's mobile phone carrier records.",
+      "description": "Phone records reveal a brief but distinct data transmission or network activity from Elias's device around 3:45 AM, despite his stated 'no-signal' environment at the retreat. This activity aligns with the remote activation time of the RF emitter.",
+      "relevance": "Proves Elias had his phone and could have remotely activated the RF emitter, directly contradicting his alibi and linking him to the method of security bypass.",
+      "difficulty": "Hard"
+    },
+    {
+      "clueID": "CM03",
+      "clueTitle": "Unidentified Decorative Object / RF Signature",
+      "clueType": "Physical Evidence / Witness Testimony",
+      "discoveryMethod": "Forensic sweep of Arthur Vance's (C02) security hub area for residual electromagnetic interference. Follow-up interviews with Arthur, Clara Hayes (C04), and guests from the prior family dinner.",
+      "discoveryLocation": "Arthur Vance's penthouse, specifically near the main security panel or smart home hub.",
+      "description": "A faint, transient electromagnetic residue, inconsistent with permanent fixtures, is detected near the security hub. Clara Hayes (C04) or a dinner guest vaguely remembers Elias Vance (C01) lingering near an outlet in that area or a new, small, minimalist 'decorative puck' appearing after Elias's last visit.",
+      "relevance": "Links Elias directly to the pre-placement of the modified 'smart plug' RF emitter, explaining the inexplicable security system 'glitch.'",
+      "difficulty": "Hard"
+    },
+    {
+      "clueID": "CM04",
+      "clueTitle": "Disputed Key Origin",
+      "clueType": "Witness Testimony / Building Records",
+      "discoveryMethod": "Interrogating Arthur Vance (C02) about all keys ever issued for his apartment, and Elias Vance (C01) about how he obtained and kept his key. Cross-referencing with building management records and Clara Hayes (C04).",
+      "discoveryLocation": "Interrogations of Arthur, Elias, Clara, and building security/management records.",
+      "description": "Arthur Vance (C02) states he never provided Elias (C01) with a permanent key to the penthouse. Elias's explanation of an 'old key kept for years' is contradicted by building records showing regular key re-issuances or by Clara Hayes (C04) recalling a recent, unapproved key duplication request by Elias.",
+      "relevance": "Establishes Elias's unauthorized access to the apartment, proving insider involvement and premeditation.",
+      "difficulty": "Medium"
+    },
+    {
+      "clueID": "CM05",
+      "clueTitle": "Elias's Framing Expertise",
+      "clueType": "Witness Testimony",
+      "discoveryMethod": "Interviewing Elias Vance's (C01) artist friends, particularly Lena Petrova (C05), and other family members about his past experience with framing, delicate object handling, or specific discussions about art conservation techniques.",
+      "discoveryLocation": "Interviews with Elias's artistic circle and family.",
+      "description": "Lena Petrova (C05) or another artist friend recalls Elias meticulously researching or discussing specific techniques for opening delicate, framed artworks without causing damage, possibly for a conceptual art piece or a past project, a skill unusual for his typical artistic medium.",
+      "relevance": "Shows Elias possessed specific, unusual technical knowledge directly applicable to the precise and undamaged extraction of the drawing, suggesting premeditation and method.",
+      "difficulty": "Medium"
+    },
+    {
+      "clueID": "CM06",
+      "clueTitle": "Elias's Pre-emptive Explanations",
+      "clueType": "Witness Testimony / Digital Record",
+      "discoveryMethod": "Interrogating Arthur Vance (C02) about the exact content, timing, and tone of Elias Vance's (C01) first message or call after Arthur discovered the missing drawing. Reviewing Arthur's phone logs.",
+      "discoveryLocation": "Arthur Vance's testimony and personal phone records.",
+      "description": "Arthur Vance (C02) reports that Elias's first communication immediately offered theories about the incident (e.g., 'smart home glitch,' 'performance art piece') rather than expressing simple shock or concern. The timing of this contact was unusually swift after Arthur's return.",
+      "relevance": "Reveals Elias's attempt to control the narrative and divert suspicion from himself, indicating a pre-planned misdirection strategy and premeditation.",
+      "difficulty": "Easy"
+    },
+    {
+      "clueID": "CM07",
+      "clueTitle": "Lack of Elias's Electronics Skills",
+      "clueType": "Witness Testimony",
+      "discoveryMethod": "Interviewing Elias Vance's (C01) artist peers (Ben Carter C06, Lena Petrova C05) and former collaborators about his technical competence, particularly in sophisticated electronics or hardware modification.",
+      "discoveryLocation": "Interviews with Elias's artistic circle.",
+      "description": "Ben Carter (C06) or Lena Petrova (C05) states that while Elias is a conceptual artist, he has no known background, interest, or demonstrated skill in sophisticated electronics, circuit modification, or RF technology, suggesting he could not have built the emitter himself.",
+      "relevance": "Contradicts any potential claim by Elias that he constructed the RF emitter himself, suggesting he either acquired it from an external source or involved an accomplice, opening new investigative avenues.",
+      "difficulty": "Medium"
+    },
+    {
+      "clueID": "CM08",
+      "clueTitle": "Post-Incident Apartment Visit by Elias",
+      "clueType": "Witness Testimony / Building Records",
+      "discoveryMethod": "Interviewing Arthur Vance (C02), Clara Hayes (C04), and David Chen (C07), and reviewing building entry logs for any visits by Elias Vance (C01) after the discovery of the theft.",
+      "discoveryLocation": "Arthur's apartment; building security logs; interviews with building staff and family.",
+      "description": "David Chen (C07), the doorman, recalls Elias Vance (C01) visiting the apartment a few days after Arthur's return and discovery of the missing drawing, perhaps under the guise of 'checking on his father' or 'helping troubleshoot smart home issues.' This visit aligns with the timeframe for retrieving the RF emitter.",
+      "relevance": "Places Elias back in the apartment after the crime and discovery, providing a crucial opportunity to remove the pre-placed, incriminating RF emitter.",
+      "difficulty": "Medium"
+    },
+    {
+      "clueID": "CM09",
+      "clueTitle": "Uncorroborated Disposal Claims",
+      "clueType": "Witness Testimony",
+      "discoveryMethod": "Interrogating Elias Vance (C01) about the specific methods and timing of his tool disposal, and cross-questioning any friends or associates he names as having assisted him.",
+      "discoveryLocation": "Interrogations of Elias and his named associates.",
+      "description": "Elias Vance (C01) describes disposing of his tools (screwdrivers, palette knife, gloves) with the assistance of a friend or through specific errands. However, the named friend denies any involvement, or their account of the timing or method of disposal contradicts Elias's story.",
+      "relevance": "Reveals Elias's fabrication regarding evidence disposal, indicating guilt and suggesting he acted alone in the immediate aftermath to destroy or hide incriminating items.",
+      "difficulty": "Medium"
+    },
+    {
+      "clueID": "CM10",
+      "clueTitle": "Elias's Language of Reclamation",
+      "clueType": "Interrogation Transcript / Behavioral Analysis",
+      "discoveryMethod": "Analyzing Elias Vance's (C01) statements and choice of words during interrogation when asked about his motivations for taking the drawing and what he hoped to accomplish.",
+      "discoveryLocation": "Interrogation room, recorded transcripts of Elias's statements.",
+      "description": "During questioning, Elias Vance (C01) uses specific, emotionally charged language such as 'reclaim,' 'take back my truth,' 'force him to remember,' 'sever myself from the lie,' or 'proof of abandonment,' revealing a deeply personal, symbolic, and non-monetary motive for the act.",
+      "relevance": "Directly establishes Elias's unique, profound motive and intent, tying him emotionally and psychologically to the specific stolen object and the act itself, making him the only plausible perpetrator.",
+      "difficulty": "Easy"
+    },
+    {
+      "clueID": "CM11",
+      "clueTitle": "Arthur's Prioritization of Image Over Security",
+      "clueType": "Witness Testimony / Behavioral Analysis",
+      "discoveryMethod": "Interrogating Arthur Vance (C02) about his initial reactions, interpretations, and subsequent actions regarding the theft, and his general attitudes towards his curated collection and public image.",
+      "discoveryLocation": "Arthur Vance's testimony.",
+      "description": "Arthur Vance (C02) consistently emphasizes the 'sophistication' of the theft, the 'conceptual' nature of the 'vanishing,' or the 'uniqueness' of his targeted collection, rather than focusing on the actual security breach or the possibility of an inside culprit. He may even express a strange, subtle pride in being targeted by such a 'clever' act.",
+      "relevance": "Explains *why* Elias (C01) chose this specific method of 'vanishing' and misdirection (performance art, tech glitch) and confirms Elias's deep understanding of his father's narcissistic psychology, supporting premeditation and manipulative intent.",
+      "difficulty": "Easy"
+    },
+    {
+      "clueID": "CM12",
+      "clueTitle": "Intimate Knowledge of the Drawing's Details",
+      "clueType": "Witness Testimony",
+      "discoveryMethod": "Separately questioning Elias Vance (C01) and Arthur Vance (C02) to describe five specific, non-public, minute characteristics of the stolen drawing (e.g., a specific crayon smudge, a faint fold, a hidden child's mark on the back, a small tear, a unique adhesive residue).",
+      "discoveryLocation": "Interrogations of Elias and Arthur.",
+      "description": "Elias Vance (C01) accurately describes several minute, non-obvious details of the drawing that Arthur Vance (C02) cannot recall or dismisses as irrelevant, demonstrating a profound and unique personal connection to the object.",
+      "relevance": "Proves Elias's intimate, personal connection to the specific drawing and its history, reinforcing his unique motive and intimate knowledge of the object's physical state.",
+      "difficulty": "Medium"
+    },
+    {
+      "clueID": "CM13",
+      "clueTitle": "Elias's History of Conceptual Provocation",
+      "clueType": "Witness Testimony / Art World Records",
+      "discoveryMethod": "Interviewing Lena Petrova (C05), Ben Carter (C06), and reviewing art press, exhibition catalogs, and online portfolios for Elias Vance's (C01) past works and artistic statements.",
+      "discoveryLocation": "Interviews with art world contacts; art archives and online publications.",
+      "description": "Lena Petrova (C05) or art critics confirm Elias Vance (C01) has a documented history of staging provocative conceptual art pieces designed to challenge perceptions, force confrontation, or explore themes of 'disappearance' or 'reclamation,' establishing a clear modus operandi.",
+      "relevance": "Establishes a pattern of artistic behavior for Elias, strongly suggesting the theft was a deliberate, symbolic act consistent with his artistic practice and not a random burglary, supporting premeditation.",
+      "difficulty": "Easy"
+    },
+    {
+      "clueID": "CM14",
+      "clueTitle": "Elias's Untraceable Travel Details",
+      "clueType": "Witness Testimony",
+      "discoveryMethod": "Interrogating Elias Vance (C01) about his specific return travel arrangements and cross-questioning any friends, ride-share drivers, or contacts he used for transport back to the city.",
+      "discoveryLocation": "Interrogations of Elias and his contacts (e.g., a friend who provided a ride, a ride-share driver).",
+      "description": "A friend who supposedly drove Elias Vance (C01) back to the city provides a conflicting account of the exact timing or route of the journey, or a ride-share company confirms a cash-paid trip from an obscure location that places Elias back in Manhattan earlier than his stated alibi.",
+      "relevance": "Undermines Elias's alibi by proving he actively used untraceable methods to return to the city during the crime window, placing him directly at the scene.",
+      "difficulty": "Medium"
+    }
+  ],
+  "masterTimeline": {
+    "precrime": [
+      {
+        "timestamp": "2024-07-01T14:00:00Z",
+        "character": "Elias Vance",
+        "action": "Visits Arthur's apartment for a pre-arranged family dinner. Subtly observes the security system's components (camera angles, motion sensor placement, main hub location), Arthur's routine for arming/disarming, and the specific mounting and frame type of the target drawing. Discreetly places the modified 'smart plug' RF emitter near the main security panel, disguised as a decorative item.",
+        "location": "Arthur Vance's penthouse, Tribeca, New York",
+        "relatedClueID": "CM03"
+      },
+      {
+        "timestamp": "2024-07-08T10:00:00Z",
+        "character": "Elias Vance",
+        "action": "Establishes a robust alibi by attending an artist's retreat upstate, confirmed by pre-arranged check-ins with fellow artists and pre-scheduled social media posts. Confirms Arthur's departure for a pre-scheduled international business trip via a 'safe' check-in text and public flight tracking, ensuring Arthur will be out of the country for a minimum of 48 hours.",
+        "location": "Artist's retreat, upstate New York",
+        "relatedClueID": "CM01"
+      }
+    ],
+    "crimeExecution": [
+      {
+        "timestamp": "2024-07-09T02:00:00Z",
+        "perspective": "Elias Vance",
+        "event": "Departs from the artist's retreat under the cover of darkness, using pre-arranged, untraceable transport (e.g., a friend's car, cash-paid ride-share from an obscure location) to travel to Tribeca, aiming to arrive in the early hours to minimize witnesses.",
+        "location": "Artist's retreat to Tribeca, New York"
+      },
+      {
+        "timestamp": "2024-07-09T03:30:00Z",
+        "perspective": "Elias Vance",
+        "event": "Conducts a final external sweep of the penthouse building for unexpected activity. Using a legitimate key (obtained years ago and kept, or a duplicate made during a prior visit), he enters the building and then the apartment. Immediately dons disposable shoe covers and surgical gloves.",
+        "location": "Arthur Vance's penthouse, Tribeca, New York",
+        "relatedClueID": "CM04"
+      },
+      {
+        "timestamp": "2024-07-09T03:45:00Z",
+        "perspective": "Elias Vance",
+        "event": "Using his smartphone, Elias remotely activates the pre-placed modified 'smart plug' RF emitter. This sends a localized burst of electromagnetic interference, causing a momentary, self-correcting 'sensor error' or 'communication anomaly' in the security system's logs for approximately 15-20 minutes, creating a window of obscured internal activity.",
+        "location": "Arthur Vance's penthouse, Tribeca, New York",
+        "relatedClueID": "CM02"
+      },
+      {
+        "timestamp": "2024-07-09T03:50:00Z",
+        "perspective": "Elias Vance",
+        "event": "Proceeds directly to the wall of drawings. Using small suction cups, he carefully lifts the glass panel of the target frame. With the jeweler's screwdrivers, he meticulously opens the frame's backing. The thin artist's palette knife is then used to gently separate the 5-year-old crayon drawing from its backing, ensuring no tears or damage. The drawing is immediately placed into an opaque, acid-free archival envelope.",
+        "location": "Arthur Vance's penthouse, Tribeca, New York",
+        "relatedClueID": "CM05"
+      },
+      {
+        "timestamp": "2024-07-09T04:05:00Z",
+        "perspective": "Elias Vance",
+        "event": "The frame's backing is carefully re-secured, and the glass panel is lowered back into place, leaving the empty frame perfectly intact. All surfaces touched (frame, wall, surrounding area) are meticulously wiped down with lint-free cloths to remove any potential forensic traces. The modified 'smart plug' RF emitter is remotely deactivated.",
+        "location": "Arthur Vance's penthouse, Tribeca, New York"
+      },
+      {
+        "timestamp": "2024-07-09T04:15:00Z",
+        "perspective": "Elias Vance",
+        "event": "Exits the apartment, ensuring the door locks properly. Removes shoe covers and gloves, placing them in a sealed bag. He then travels back to his alibi location using the same untraceable methods, arriving before anyone could question his absence.",
+        "location": "Arthur Vance's penthouse to artist's retreat, upstate New York",
+        "relatedClueID": "CM14"
+      }
+    ],
+    "postCrime": [
+      {
+        "timestamp": "2024-07-11T18:00:00Z",
+        "character": "Arthur Vance",
+        "action": "Returns from his international trip. Upon his routine inspection of his apartment, or simply noticing the prominent display, he discovers the 'vanished' drawing, triggering the intended psychological confrontation with his suppressed past.",
+        "location": "Arthur Vance's penthouse, Tribeca, New York"
+      },
+      {
+        "timestamp": "2024-07-11T18:30:00Z",
+        "character": "Arthur Vance",
+        "action": "Contacts the authorities to report the missing drawing, emphasizing the lack of forced entry and the inexplicable security system 'communication anomaly' shown in the logs.",
+        "location": "Arthur Vance's penthouse, Tribeca, New York"
+      }
+    ]
+  }
+}

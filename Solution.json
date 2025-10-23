@@ -1,0 +1,62 @@
+{
+  "solvablePath": {
+    "keyFlaws": [
+      {
+        "clueID": "CF1",
+        "description": "Alibi timing contradictions revealed by witnesses at the artist retreat. Interrogate Elias's fellow artists and the retreat organizer about Elias's phone use, comings and goings, and the exact times of his 'check-ins'. If any witness says Elias was seen with his phone, left early, or returned to town earlier than his public posts claim, his 'no-signal' alibi collapses and places him in a window consistent with the theft."
+      },
+      {
+        "clueID": "CF2",
+        "description": "Phone activation and behavior inconsistencies. Ask Elias and his ride/fellow traveler detailed questions about who had his phone or whether he was online during the proposed remote activation time. Cross-question the friend who supposedly drove or hosted him at the retreat: if they insist Elias had possession of his phone or made calls/texts during the critical hours, it undermines his claim that he could not remotely trigger the device without leaving the retreat."
+      },
+      {
+        "clueID": "CF3",
+        "description": "Implausible 15\u201320 minute RF glitch caused by a low\u2011power plug placed during a family dinner. Question everyone who attended that dinner (Arthur, guests, building staff, other family) about any new decorative object or smart plug on the security hub area and whether they noticed Elias near the hub or fiddling with outlets. Any testimony that remembers an unfamiliar decorative puck appearing after Elias's visit or remembers Elias lingering near the hub will expose the preplacement and link Elias to the device."
+      },
+      {
+        "clueID": "CF4",
+        "description": "Key provenance and building access contradictions. Interrogate Arthur about any keys he gave out historically (to Elias, cleaners, contractors). Then ask Elias how he obtained and why he kept a legitimate key. Any mismatch \u2014 Arthur denying he ever handed Elias a key, or Elias giving a story about an old duplicate that others recall being made recently \u2014 reveals dishonest access rather than 'kept for years.'"
+      },
+      {
+        "clueID": "CF5",
+        "description": "Unusually detailed knowledge of the target frame and extraction method. Question Elias about how he knew the frame type, backing, mounting screws, and how he learned to open it without damage. Then ask friends or family if Elias ever helped with framing or discussed exact framing details. If Elias's technical detail is way beyond what others expect from him, it shows foreknowledge that only the perpetrator would have."
+      },
+      {
+        "clueID": "CF6",
+        "description": "Immediate 'concerned son' contact as a staged move. Interrogate Arthur about the exact content, timing, and tone of Elias's first message or call after discovery. Then ask Elias to reproduce or explain why he phoned as he did. If Arthur reports Elias immediately suggested technological or artistic explanations rather than expressing pure shock or accusing anyone, it reveals Elias's attempt to seed the glitch narrative and to control Arthur's interpretation."
+      },
+      {
+        "clueID": "CF7",
+        "description": "Tech expertise mismatch: Elias claims to have created/modified an RF emitter yet friends and collaborators will testify he lacks sophisticated electronics skills. Question Elias about where he acquired the modified plug and who helped him. Then ask his artist friends about his technical competence. If they say he never worked with electronics or would have needed outside help, it suggests either he lied about constructing the device himself or he involved an accomplice who can be identified by further questioning."
+      },
+      {
+        "clueID": "CF8",
+        "description": "Opportunity for later retrieval creates contradictory visit accounts. Ask Arthur to list all visitors and interactions between the discovery and the removal of the suspect decorative object. Then ask Elias to account for any 'follow-up' visits he made. If Arthur remembers Elias visiting to 'check' or 'fix' something, or if neighbors recall Elias entering after the incident, that places Elias in the apartment twice, matching the plug retrieval claim and making him suspect."
+      },
+      {
+        "clueID": "CF9",
+        "description": "Disposal story depends on helpers and errands. Question Elias about how he disposed of the tools, when, in whose car, and whether he asked anyone to assist. Then question the friends or people he named: any refusal, confusion, or refusal to corroborate signals fabrication. A friend who admits being asked to hold or transport items becomes a witness; a missing corroboration breaks the cover story and shows Elias had sole control of the evidence."
+      },
+      {
+        "clueID": "CF10",
+        "description": "Language and motive leakage under interrogation. Ask Elias to describe, in his own words, why he took the drawing and what he hoped to accomplish. Listen for specific verbs and phrases like reclaim, take back, force him to remember, sever, proof of abandonment. Those precise, goal-directed words are admissions of motive and intent that an interrogator can press into a confession or expose as the reason only someone with intimate knowledge and emotional stake would act."
+      },
+      {
+        "clueID": "CF11",
+        "description": "Arthur's narcissistic reactions are an exploitable behavioral pattern. Interrogate Arthur about his interpretation of the missing drawing, whether he first considered vandalism, theft, performance art, or technology failure, and why. If Arthur repeatedly emphasizes image, curation, or prestige and downplays the possibility of an inside actor, that admission explains why Elias would approach him with a 'performance art' theory and shows the social dynamic that Elias exploited \u2014 useful to prove premeditation and manipulative intent when questioning Elias."
+      },
+      {
+        "clueID": "CF12",
+        "description": "Unique personal details about the drawing available only to Elias. Question both Elias and Arthur to describe five specific, nonpublic characteristics of the drawing (smudges, folds, a child's handwriting on back, a repair, a sticker on the frame edge). If Elias can recall these and Arthur cannot, it both proves Elias's personal connection to the object and shows why he believed the drawing held unique emotional evidence \u2014 a motive and link that interrogation exposes without physical forensics."
+      },
+      {
+        "clueID": "CF13",
+        "description": "Pattern of artistic provocation. Ask Elias and his peers about his past works and whether he has staged provocative actions or hoaxes in the past. If peers confirm a history of staging conceptual actions to force confrontation, this establishes a modus operandi. Interrogation that establishes pattern supports the claim that the theft was an intentional, symbolic act rather than a random burglary."
+      },
+      {
+        "clueID": "CF14",
+        "description": "Return timeline and travel witnesses. Question the driver, the friend who provided a ride, or retreat contacts about Elias's actual arrival times back in the city and any odd detours or behavior. If witnesses place Elias back in Manhattan earlier than his stated 'arrival before anyone could question his absence' or show he arranged untraceable transport, those testimonies place him in range during the crime window and undercut his alibi through human corroboration alone."
+      }
+    ]
+  }
+}

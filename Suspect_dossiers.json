@@ -1,0 +1,88 @@
+{
+  "suspectDossiers": [
+    {
+      "characterID": "C01",
+      "name": "Elias Vance",
+      "gender": "Male",
+      "roleInStory": "suspect",
+      "biography": "A struggling conceptual artist in his late 20s, deeply empathetic but often misunderstood. He has a strained and complex relationship with his father, Arthur. Elias is not a criminal by nature, but is driven by a profound, almost desperate, need for emotional truth and validation regarding his past, particularly concerning a suppressed childhood trauma.",
+      "statedAlibi": "Attending a remote, 'off-grid' artist's retreat upstate. Confirmed by pre-arranged check-ins with fellow artists and social media posts (pre-scheduled to appear organic). Maintained a 'no-signal' narrative for his phone during the critical window.",
+      "alibiFlaw": "Fellow artists at the retreat, particularly Ben Carter (C06), might recall Elias making or receiving calls/texts during the 'no-signal' window, or leaving the retreat earlier than publicly stated. His 'untraceable' travel methods could be exposed by a ride-share driver or friend (CF1, CF2, CF14).",
+      "trueAction": "Traveled from the artist's retreat to Arthur's penthouse, executed the precise theft of the drawing, and returned to the retreat, adhering to a meticulously planned timeline.",
+      "connectionToCase": "Son of the victim, Arthur Vance. The perpetrator of the theft, driven by a deep personal motive linked to the stolen object's symbolic value.",
+      "initialStatementToPolice": "When contacted by authorities regarding the missing item from his father's apartment, Elias expressed deep concern for his father's distress, suggesting the incident was 'bizarre' and 'unexplainable.' He subtly mentioned recent news about 'smart home vulnerabilities' and 'ghost in the machine' glitches affecting high-tech residences."
+    },
+    {
+      "characterID": "C02",
+      "name": "Arthur Vance",
+      "gender": "Male",
+      "roleInStory": "victim",
+      "biography": "Elias's father. A highly successful, emotionally guarded, and somewhat narcissistic corporate executive in his late 50s. His ultra-modern Tribeca penthouse is a testament to minimalist luxury, filled with 'curated' art, including a prominent wall of framed childhood drawings from Elias, displayed almost as trophies of his 'successful' parenting.",
+      "statedAlibi": "Away on a pre-scheduled international business trip, confirmed by flight details and hotel bookings.",
+      "alibiFlaw": "None; he is the victim and was demonstrably out of the country.",
+      "trueAction": "Away on an international business trip, completely unaware of the incident until his return.",
+      "connectionToCase": "Father of Elias Vance. Owner of the stolen drawing and the apartment where the theft occurred. The target of Elias's symbolic act.",
+      "initialStatementToPolice": "Upon returning home, Arthur discovered that a specific framed drawing was missing from his art wall. He reported no signs of forced entry, but noted that his high-tech security system logs showed a brief, inexplicable 'communication anomaly' during the estimated time of the incident."
+    },
+    {
+      "characterID": "C03",
+      "name": "Julian Thorne",
+      "gender": "Male",
+      "roleInStory": "suspect",
+      "biography": "Arthur Vance's smart home and security system integrator. Julian, in his mid-40s, prides himself on his 'unbreakable' systems but is known for cutting corners on documentation and sometimes over-promising capabilities. He's currently facing minor gambling debts, which he keeps hidden.",
+      "statedAlibi": "Claims to have been working remotely from his home office on another high-profile client's system during the time of the incident. Provides remote access logs for that project.",
+      "alibiFlaw": "The 'implausible' nature of a 15-20 minute RF glitch in a supposedly 'unbreakable' system is highly suspicious (CF3). His financial difficulties could provide a motive for a staged 'system failure' or even an inside job. Questioning his clients about his remote work might reveal discrepancies.",
+      "trueAction": "Was at his home office, working remotely, unaware of the specific incident but potentially negligent in his system's design or maintenance.",
+      "connectionToCase": "Designed, installed, and maintains Arthur Vance's high-tech security system. The 'glitch' in the system directly implicates his work.",
+      "initialStatementToPolice": "Julian Thorne expressed strong confidence in the integrity of the installed security system, stating that any 'glitch' would be a rare, self-correcting anomaly, likely an external interference or a transient software bug, not a security breach. He emphasized the system's robust design against forced entry."
+    },
+    {
+      "characterID": "C04",
+      "name": "Clara Hayes",
+      "gender": "Female",
+      "roleInStory": "suspect",
+      "biography": "Arthur Vance's meticulous and seemingly loyal personal assistant, in her early 30s. She manages his schedule, finances, and often has access to his apartment for various tasks, including overseeing cleaners. Beneath her composed exterior, she harbors a quiet resentment for Arthur's demanding nature and his tendency to take her efforts for granted. She possesses a legitimate key to the penthouse.",
+      "statedAlibi": "Was at home, preparing for Arthur's return from his international trip, organizing documents and responding to emails. Claims to have been online for work during the entire critical window.",
+      "alibiFlaw": "Her absolute access to the apartment via a legitimate key (CF4) and intimate knowledge of Arthur's schedule make her a prime suspect. Her online activity logs might not fully corroborate her 'working' claims, or she might have left her residence for a brief period undetected. Her resentment could be a hidden motive.",
+      "trueAction": "Was at home, genuinely working on Arthur's affairs, but feeling increasingly undervalued and frustrated by her employer.",
+      "connectionToCase": "Arthur Vance's personal assistant. Has a legitimate key to the apartment and detailed knowledge of Arthur's schedule and the apartment's layout. She also handled the logistics for the dinner where Elias placed the RF emitter.",
+      "initialStatementToPolice": "Clara Hayes confirmed Arthur Vance's international travel schedule. She described the apartment as always being meticulously kept and emphasized the sophistication of the security system. She also mentioned hearing a rumor that Julian Thorne, the security installer, had a past incident with a client where a 'system error' led to an unexpected access issue."
+    },
+    {
+      "characterID": "C05",
+      "name": "Lena Petrova",
+      "gender": "Female",
+      "roleInStory": "suspect",
+      "biography": "A seasoned and influential art dealer in her late 40s who has championed Elias Vance's conceptual art. She sees significant potential in Elias but also subtly guides his artistic direction for her own financial and reputational gain. She believes strongly in the power of 'artistic statements' and has previously discussed provocative, conceptual art 'interventions' with Elias.",
+      "statedAlibi": "Attending a high-profile international art fair in Miami. Provides verifiable flight details, hotel confirmations, and numerous social media posts from the event.",
+      "alibiFlaw": "While her physical alibi is strong, her influence on Elias's conceptual thinking and her history of encouraging provocative art (CF13) could make her an accessory or an instigator. She might have provided logistical advice or resources for a 'conceptual' act, even if she wasn't physically present.",
+      "trueAction": "Was genuinely at the art fair in Miami, actively promoting her gallery and artists, including Elias's work.",
+      "connectionToCase": "Elias Vance's art dealer and mentor. Shares a philosophical alignment with Elias regarding conceptual art, potentially inspiring or subtly encouraging his actions.",
+      "initialStatementToPolice": "Upon learning of the incident after her return, Lena Petrova expressed surprise at the 'disappearance' of the drawing. She mused that, given Arthur Vance's curated collection and Elias's artistic leanings, it could almost be interpreted as an 'avant-garde performance piece' or a 'conceptual statement' by an unknown artist, specifically targeting Arthur's collection."
+    },
+    {
+      "characterID": "C06",
+      "name": "Ben Carter",
+      "gender": "Male",
+      "roleInStory": "witness",
+      "biography": "A younger, impressionable artist in his early 20s who greatly admires Elias Vance. He attended the same artist's retreat upstate and often seeks Elias's artistic advice. Ben is generally well-meaning but prone to exaggeration and sometimes struggles with precise recall, especially when trying to impress others.",
+      "statedAlibi": "At the artist's retreat upstate, focused on his own projects. Confirmed by the retreat organizer and other attendees.",
+      "alibiFlaw": "Ben might inadvertently contradict Elias's 'no-signal' narrative or the exact times Elias was seen at the retreat (CF1). His desire to appear knowledgeable or helpful could lead him to misremember details about Elias's phone usage or presence during the critical hours.",
+      "trueAction": "Was at the artist's retreat, working on his own art, occasionally interacting with Elias.",
+      "connectionToCase": "Fellow artist and acquaintance of Elias Vance at the retreat. Can corroborate Elias's general presence at the retreat but might offer inconsistent details regarding Elias's specific activities or phone usage.",
+      "initialStatementToPolice": "Ben Carter confirmed he was at the upstate artist's retreat during the specified period. He recalled the general atmosphere was focused on creative work, and everyone was largely 'off-grid.' He remembered Elias Vance being present, often deep in thought, working on a new conceptual project."
+    },
+    {
+      "characterID": "C07",
+      "name": "David Chen",
+      "gender": "Male",
+      "roleInStory": "witness",
+      "biography": "A long-serving and generally reliable doorman at Arthur Vance's Tribeca building, in his late 50s. David is observant of regular residents but can be distracted by personal calls or casual gossip. He has a good memory for faces but often struggles with precise timestamps, especially for events that seemed unremarkable at the time.",
+      "statedAlibi": "On duty at the building's front desk during the hours of the incident, performing routine tasks and monitoring security feeds.",
+      "alibiFlaw": "While on duty, David might misremember the exact date or time of an unusual entry or exit by Elias Vance (CF14). His attention could have been diverted during a critical window, leading to gaps in his observation logs or memory. He might also have a vague recollection of a 'blip' on the security monitor that he dismissed as routine (CF7).",
+      "trueAction": "Was on duty at the building entrance, performing his routine tasks, but occasionally distracted.",
+      "connectionToCase": "Doorman at Arthur Vance's building. Controls and monitors building access. Might have seen Elias Vance entering or exiting the building during the crime window.",
+      "initialStatementToPolice": "David Chen stated he was on duty during the night in question. He confirmed no unusual external visitors or forced entries were observed. He recalled that the building's internal security system had a brief 'blip' on the monitor that night, but it self-corrected quickly and was logged as a minor system anomaly, which he didn't consider significant at the time."
+    }
+  ]
+}

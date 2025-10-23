@@ -1,0 +1,144 @@
+{
+  "clueManifest": [
+    {
+      "clueID": "CM01",
+      "clueTitle": "Retreat Witness Testimony Discrepancy",
+      "clueType": "Witness Testimony",
+      "discoveryMethod": "Interrogating Ben Carter (C06) and the artist retreat organizer about Elias Vance's (C01) specific activities, phone usage, and exact whereabouts during the night of the theft.",
+      "discoveryLocation": "Artist's retreat upstate, during interviews with attendees and staff.",
+      "description": "Ben Carter (C06), a fellow artist, vaguely recalls Elias making a phone call or checking his device around 3:00 AM on the night of the theft, or a staff member notes Elias's vehicle was briefly absent from the parking area for a few hours, contradicting Elias's 'no-signal' and continuous presence alibi.",
+      "relevance": "Directly undermines Elias's alibi, placing him in a window consistent with travel to and from New York City during the crime.",
+      "difficulty": "Medium"
+    },
+    {
+      "clueID": "CM02",
+      "clueTitle": "Elias's Phone Activity Log",
+      "clueType": "Digital Record",
+      "discoveryMethod": "Subpoenaing Elias Vance's (C01) phone carrier records for data transmission, network pings, or GPS location data during the critical crime window.",
+      "discoveryLocation": "Elias's mobile phone carrier records.",
+      "description": "Phone records reveal a brief but distinct data transmission or network activity from Elias's device around 3:45 AM, despite his stated 'no-signal' environment at the retreat. This activity aligns with the remote activation time of the RF emitter.",
+      "relevance": "Proves Elias had his phone and could have remotely activated the RF emitter, directly contradicting his alibi and linking him to the method of security bypass.",
+      "difficulty": "Hard"
+    },
+    {
+      "clueID": "CM03",
+      "clueTitle": "Unidentified Decorative Object / RF Signature",
+      "clueType": "Physical Evidence / Witness Testimony",
+      "discoveryMethod": "Forensic sweep of Arthur Vance's (C02) security hub area for residual electromagnetic interference. Follow-up interviews with Arthur, Clara Hayes (C04), and guests from the prior family dinner.",
+      "discoveryLocation": "Arthur Vance's penthouse, specifically near the main security panel or smart home hub.",
+      "description": "A faint, transient electromagnetic residue, inconsistent with permanent fixtures, is detected near the security hub. Clara Hayes (C04) or a dinner guest vaguely remembers Elias Vance (C01) lingering near an outlet in that area or a new, small, minimalist 'decorative puck' appearing after Elias's last visit.",
+      "relevance": "Links Elias directly to the pre-placement of the modified 'smart plug' RF emitter, explaining the inexplicable security system 'glitch.'",
+      "difficulty": "Hard"
+    },
+    {
+      "clueID": "CM04",
+      "clueTitle": "Disputed Key Origin",
+      "clueType": "Witness Testimony / Building Records",
+      "discoveryMethod": "Interrogating Arthur Vance (C02) about all keys ever issued for his apartment, and Elias Vance (C01) about how he obtained and kept his key. Cross-referencing with building management records and Clara Hayes (C04).",
+      "discoveryLocation": "Interrogations of Arthur, Elias, Clara, and building security/management records.",
+      "description": "Arthur Vance (C02) states he never provided Elias (C01) with a permanent key to the penthouse. Elias's explanation of an 'old key kept for years' is contradicted by building records showing regular key re-issuances or by Clara Hayes (C04) recalling a recent, unapproved key duplication request by Elias.",
+      "relevance": "Establishes Elias's unauthorized access to the apartment, proving insider involvement and premeditation.",
+      "difficulty": "Medium"
+    },
+    {
+      "clueID": "CM05",
+      "clueTitle": "Elias's Framing Expertise",
+      "clueType": "Witness Testimony",
+      "discoveryMethod": "Interviewing Elias Vance's (C01) artist friends, particularly Lena Petrova (C05), and other family members about his past experience with framing, delicate object handling, or specific discussions about art conservation techniques.",
+      "discoveryLocation": "Interviews with Elias's artistic circle and family.",
+      "description": "Lena Petrova (C05) or another artist friend recalls Elias meticulously researching or discussing specific techniques for opening delicate, framed artworks without causing damage, possibly for a conceptual art piece or a past project, a skill unusual for his typical artistic medium.",
+      "relevance": "Shows Elias possessed specific, unusual technical knowledge directly applicable to the precise and undamaged extraction of the drawing, suggesting premeditation and method.",
+      "difficulty": "Medium"
+    },
+    {
+      "clueID": "CM06",
+      "clueTitle": "Elias's Pre-emptive Explanations",
+      "clueType": "Witness Testimony / Digital Record",
+      "discoveryMethod": "Interrogating Arthur Vance (C02) about the exact content, timing, and tone of Elias Vance's (C01) first message or call after Arthur discovered the missing drawing. Reviewing Arthur's phone logs.",
+      "discoveryLocation": "Arthur Vance's testimony and personal phone records.",
+      "description": "Arthur Vance (C02) reports that Elias's first communication immediately offered theories about the incident (e.g., 'smart home glitch,' 'performance art piece') rather than expressing simple shock or concern. The timing of this contact was unusually swift after Arthur's return.",
+      "relevance": "Reveals Elias's attempt to control the narrative and divert suspicion from himself, indicating a pre-planned misdirection strategy and premeditation.",
+      "difficulty": "Easy"
+    },
+    {
+      "clueID": "CM07",
+      "clueTitle": "Lack of Elias's Electronics Skills",
+      "clueType": "Witness Testimony",
+      "discoveryMethod": "Interviewing Elias Vance's (C01) artist peers (Ben Carter C06, Lena Petrova C05) and former collaborators about his technical competence, particularly in sophisticated electronics or hardware modification.",
+      "discoveryLocation": "Interviews with Elias's artistic circle.",
+      "description": "Ben Carter (C06) or Lena Petrova (C05) states that while Elias is a conceptual artist, he has no known background, interest, or demonstrated skill in sophisticated electronics, circuit modification, or RF technology, suggesting he could not have built the emitter himself.",
+      "relevance": "Contradicts any potential claim by Elias that he constructed the RF emitter himself, suggesting he either acquired it from an external source or involved an accomplice, opening new investigative avenues.",
+      "difficulty": "Medium"
+    },
+    {
+      "clueID": "CM08",
+      "clueTitle": "Post-Incident Apartment Visit by Elias",
+      "clueType": "Witness Testimony / Building Records",
+      "discoveryMethod": "Interviewing Arthur Vance (C02), Clara Hayes (C04), and David Chen (C07), and reviewing building entry logs for any visits by Elias Vance (C01) after the discovery of the theft.",
+      "discoveryLocation": "Arthur's apartment; building security logs; interviews with building staff and family.",
+      "description": "David Chen (C07), the doorman, recalls Elias Vance (C01) visiting the apartment a few days after Arthur's return and discovery of the missing drawing, perhaps under the guise of 'checking on his father' or 'helping troubleshoot smart home issues.' This visit aligns with the timeframe for retrieving the RF emitter.",
+      "relevance": "Places Elias back in the apartment after the crime and discovery, providing a crucial opportunity to remove the pre-placed, incriminating RF emitter.",
+      "difficulty": "Medium"
+    },
+    {
+      "clueID": "CM09",
+      "clueTitle": "Uncorroborated Disposal Claims",
+      "clueType": "Witness Testimony",
+      "discoveryMethod": "Interrogating Elias Vance (C01) about the specific methods and timing of his tool disposal, and cross-questioning any friends or associates he names as having assisted him.",
+      "discoveryLocation": "Interrogations of Elias and his named associates.",
+      "description": "Elias Vance (C01) describes disposing of his tools (screwdrivers, palette knife, gloves) with the assistance of a friend or through specific errands. However, the named friend denies any involvement, or their account of the timing or method of disposal contradicts Elias's story.",
+      "relevance": "Reveals Elias's fabrication regarding evidence disposal, indicating guilt and suggesting he acted alone in the immediate aftermath to destroy or hide incriminating items.",
+      "difficulty": "Medium"
+    },
+    {
+      "clueID": "CM10",
+      "clueTitle": "Elias's Language of Reclamation",
+      "clueType": "Interrogation Transcript / Behavioral Analysis",
+      "discoveryMethod": "Analyzing Elias Vance's (C01) statements and choice of words during interrogation when asked about his motivations for taking the drawing and what he hoped to accomplish.",
+      "discoveryLocation": "Interrogation room, recorded transcripts of Elias's statements.",
+      "description": "During questioning, Elias Vance (C01) uses specific, emotionally charged language such as 'reclaim,' 'take back my truth,' 'force him to remember,' 'sever myself from the lie,' or 'proof of abandonment,' revealing a deeply personal, symbolic, and non-monetary motive for the act.",
+      "relevance": "Directly establishes Elias's unique, profound motive and intent, tying him emotionally and psychologically to the specific stolen object and the act itself, making him the only plausible perpetrator.",
+      "difficulty": "Easy"
+    },
+    {
+      "clueID": "CM11",
+      "clueTitle": "Arthur's Prioritization of Image Over Security",
+      "clueType": "Witness Testimony / Behavioral Analysis",
+      "discoveryMethod": "Interrogating Arthur Vance (C02) about his initial reactions, interpretations, and subsequent actions regarding the theft, and his general attitudes towards his curated collection and public image.",
+      "discoveryLocation": "Arthur Vance's testimony.",
+      "description": "Arthur Vance (C02) consistently emphasizes the 'sophistication' of the theft, the 'conceptual' nature of the 'vanishing,' or the 'uniqueness' of his targeted collection, rather than focusing on the actual security breach or the possibility of an inside culprit. He may even express a strange, subtle pride in being targeted by such a 'clever' act.",
+      "relevance": "Explains *why* Elias (C01) chose this specific method of 'vanishing' and misdirection (performance art, tech glitch) and confirms Elias's deep understanding of his father's narcissistic psychology, supporting premeditation and manipulative intent.",
+      "difficulty": "Easy"
+    },
+    {
+      "clueID": "CM12",
+      "clueTitle": "Intimate Knowledge of the Drawing's Details",
+      "clueType": "Witness Testimony",
+      "discoveryMethod": "Separately questioning Elias Vance (C01) and Arthur Vance (C02) to describe five specific, non-public, minute characteristics of the stolen drawing (e.g., a specific crayon smudge, a faint fold, a hidden child's mark on the back, a small tear, a unique adhesive residue).",
+      "discoveryLocation": "Interrogations of Elias and Arthur.",
+      "description": "Elias Vance (C01) accurately describes several minute, non-obvious details of the drawing that Arthur Vance (C02) cannot recall or dismisses as irrelevant, demonstrating a profound and unique personal connection to the object.",
+      "relevance": "Proves Elias's intimate, personal connection to the specific drawing and its history, reinforcing his unique motive and intimate knowledge of the object's physical state.",
+      "difficulty": "Medium"
+    },
+    {
+      "clueID": "CM13",
+      "clueTitle": "Elias's History of Conceptual Provocation",
+      "clueType": "Witness Testimony / Art World Records",
+      "discoveryMethod": "Interviewing Lena Petrova (C05), Ben Carter (C06), and reviewing art press, exhibition catalogs, and online portfolios for Elias Vance's (C01) past works and artistic statements.",
+      "discoveryLocation": "Interviews with art world contacts; art archives and online publications.",
+      "description": "Lena Petrova (C05) or art critics confirm Elias Vance (C01) has a documented history of staging provocative conceptual art pieces designed to challenge perceptions, force confrontation, or explore themes of 'disappearance' or 'reclamation,' establishing a clear modus operandi.",
+      "relevance": "Establishes a pattern of artistic behavior for Elias, strongly suggesting the theft was a deliberate, symbolic act consistent with his artistic practice and not a random burglary, supporting premeditation.",
+      "difficulty": "Easy"
+    },
+    {
+      "clueID": "CM14",
+      "clueTitle": "Elias's Untraceable Travel Details",
+      "clueType": "Witness Testimony",
+      "discoveryMethod": "Interrogating Elias Vance (C01) about his specific return travel arrangements and cross-questioning any friends, ride-share drivers, or contacts he used for transport back to the city.",
+      "discoveryLocation": "Interrogations of Elias and his contacts (e.g., a friend who provided a ride, a ride-share driver).",
+      "description": "A friend who supposedly drove Elias Vance (C01) back to the city provides a conflicting account of the exact timing or route of the journey, or a ride-share company confirms a cash-paid trip from an obscure location that places Elias back in Manhattan earlier than his stated alibi.",
+      "relevance": "Undermines Elias's alibi by proving he actively used untraceable methods to return to the city during the crime window, placing him directly at the scene.",
+      "difficulty": "Medium"
+    }
+  ]
+}

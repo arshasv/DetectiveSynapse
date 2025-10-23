@@ -1,0 +1,74 @@
+{
+  "preCrime": [
+    {
+      "timestamp": "2024-07-01T14:00:00Z",
+      "character": "Elias Vance",
+      "action": "Visits Arthur's apartment for a pre-arranged family dinner. Subtly observes the security system's components (camera angles, motion sensor placement, main hub location), Arthur's routine for arming/disarming, and the specific mounting and frame type of the target drawing. Discreetly places the modified 'smart plug' RF emitter near the main security panel, disguised as a decorative item.",
+      "location": "Arthur Vance's penthouse, Tribeca, New York",
+      "relatedClueID": "CM03"
+    },
+    {
+      "timestamp": "2024-07-08T10:00:00Z",
+      "character": "Elias Vance",
+      "action": "Establishes a robust alibi by attending an artist's retreat upstate, confirmed by pre-arranged check-ins with fellow artists and pre-scheduled social media posts. Confirms Arthur's departure for a pre-scheduled international business trip via a 'safe' check-in text and public flight tracking, ensuring Arthur will be out of the country for a minimum of 48 hours.",
+      "location": "Artist's retreat, upstate New York",
+      "relatedClueID": "CM01"
+    }
+  ],
+  "crimeExecution": [
+    {
+      "timestamp": "2024-07-09T02:00:00Z",
+      "perspective": "Elias Vance",
+      "event": "Departs from the artist's retreat under the cover of darkness, using pre-arranged, untraceable transport (e.g., a friend's car, cash-paid ride-share from an obscure location) to travel to Tribeca, aiming to arrive in the early hours to minimize witnesses.",
+      "location": "Artist's retreat to Tribeca, New York"
+    },
+    {
+      "timestamp": "2024-07-09T03:30:00Z",
+      "perspective": "Elias Vance",
+      "event": "Conducts a final external sweep of the penthouse building for unexpected activity. Using a legitimate key (obtained years ago and kept, or a duplicate made during a prior visit), he enters the building and then the apartment. Immediately dons disposable shoe covers and surgical gloves.",
+      "location": "Arthur Vance's penthouse, Tribeca, New York",
+      "relatedClueID": "CM04"
+    },
+    {
+      "timestamp": "2024-07-09T03:45:00Z",
+      "perspective": "Elias Vance",
+      "event": "Using his smartphone, Elias remotely activates the pre-placed modified 'smart plug' RF emitter. This sends a localized burst of electromagnetic interference, causing a momentary, self-correcting 'sensor error' or 'communication anomaly' in the security system's logs for approximately 15-20 minutes, creating a window of obscured internal activity.",
+      "location": "Arthur Vance's penthouse, Tribeca, New York",
+      "relatedClueID": "CM02"
+    },
+    {
+      "timestamp": "2024-07-09T03:50:00Z",
+      "perspective": "Elias Vance",
+      "event": "Proceeds directly to the wall of drawings. Using small suction cups, he carefully lifts the glass panel of the target frame. With the jeweler's screwdrivers, he meticulously opens the frame's backing. The thin artist's palette knife is then used to gently separate the 5-year-old crayon drawing from its backing, ensuring no tears or damage. The drawing is immediately placed into an opaque, acid-free archival envelope.",
+      "location": "Arthur Vance's penthouse, Tribeca, New York",
+      "relatedClueID": "CM05"
+    },
+    {
+      "timestamp": "2024-07-09T04:05:00Z",
+      "perspective": "Elias Vance",
+      "event": "The frame's backing is carefully re-secured, and the glass panel is lowered back into place, leaving the empty frame perfectly intact. All surfaces touched (frame, wall, surrounding area) are meticulously wiped down with lint-free cloths to remove any potential forensic traces. The modified 'smart plug' RF emitter is remotely deactivated.",
+      "location": "Arthur Vance's penthouse, Tribeca, New York"
+    },
+    {
+      "timestamp": "2024-07-09T04:15:00Z",
+      "perspective": "Elias Vance",
+      "event": "Exits the apartment, ensuring the door locks properly. Removes shoe covers and gloves, placing them in a sealed bag. He then travels back to his alibi location using the same untraceable methods, arriving before anyone could question his absence.",
+      "location": "Arthur Vance's penthouse to artist's retreat, upstate New York",
+      "relatedClueID": "CM14"
+    }
+  ],
+  "postCrime": [
+    {
+      "timestamp": "2024-07-11T18:00:00Z",
+      "character": "Arthur Vance",
+      "action": "Returns from his international trip. Upon his routine inspection of his apartment, or simply noticing the prominent display, he discovers the 'vanished' drawing, triggering the intended psychological confrontation with his suppressed past.",
+      "location": "Arthur Vance's penthouse, Tribeca, New York"
+    },
+    {
+      "timestamp": "2024-07-11T18:30:00Z",
+      "character": "Arthur Vance",
+      "action": "Contacts the authorities to report the missing drawing, emphasizing the lack of forced entry and the inexplicable security system 'communication anomaly' shown in the logs.",
+      "location": "Arthur Vance's penthouse, Tribeca, New York"
+    }
+  ]
+}

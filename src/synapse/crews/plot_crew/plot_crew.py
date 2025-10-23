@@ -25,7 +25,7 @@ class PlotCrew:
     @task
     def Generate_bullseye(self) -> Task:
         return Task(
-            config=self.tasks_config["Generate_bullseye_task"],  
+            config=self.tasks_config["Generate_bullseye_task"],
         )
 
     @crew
@@ -33,8 +33,8 @@ class PlotCrew:
         """Creates the Plot Crew"""
 
         return Crew(
-            agents=self.agents,  
-            tasks=self.tasks,  
+            agents=self.agents,
+            tasks=self.tasks,
             process=Process.sequential,
             verbose=True,
         )

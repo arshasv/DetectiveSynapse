@@ -1,0 +1,82 @@
+Suspect_dossiers_task:
+  description: >
+    Your primary objective, using the core narrative established in the {Bullseye} and {CoverupPlan} to kick off the process, is to generate a cast of 6 to 7 high relevant 
+    characters that creates a climate of universal suspicion, where every individual is a plausible suspect and a Red herring. This mandate is absolute, ensuring that even 
+    witnesses(maximum of two) who provide a crucial path to the culprit are themselves cast in a shadow of doubt, possessing their own subtle inconsistencies or potential
+    motives that make them viable low-level suspects and red herring. To achieve this, first construct a web of interconnectedness by weaving subtle elements of 
+    doubt—such as hidden motives, flawed alibis, or special knowledge—into every character's overall dossier. However, when crafting the specific 
+    initialStatementToPolice, you must adhere to a strict rule of investigative realism. These initial statements must be severely limited to what a 
+    person would say to police in the  aftermath of a crime, focusing only on the primary event itself (such as the inciting incident or the moment of 
+    discovery) and avoiding detailed memories of past events, expert analysis, or emotional interpretations, The only exception is the pre-planted 
+    rumor about the red herring, which is part of the on-scene misdirection.A witness's initial statement must never provide a  lead to the culprit; its 
+    purpose is to create narrative ambiguity or actively reinforce the misdirection against the red herring, must explicitly omit any mention or 
+    description of any person involved.
+     No Character Analysis: It explicitly forbids any judgment, positive or negative (e.g., no more "pillar of the community" or "he seemed agitated").
+     No Alibi Support: It explicitly forbids any statement that helps or hurts someone's alibi (e.g., no more "he barely left my side").
+     No Narrative Context: It explicitly forbids any framing of the event (e.g., no more "I can't imagine how this could have happened").
+    All other damning connections and "smoking-gun" details must be reserved for other fields like alibiFlaw, representing information that is only uncovered through later, formal investigation.
+    When generating the suspectDossiers, the value for the role field for each character must be one of the following  strings, and nothing else:
+      - "victim"
+      - "suspect"
+      - "witness"
+    The characterID field must be a string starting with the prefix 'C' followed by a zero-padded, sequential two-digit number (e.g., 'C01', 'C02', etc.) to ensure each character has a unique identifier.
+  expected_output: SuspectDossiersOutput
+  agent: Narrative_weaver_agent
+Clue_manifest_task:
+  description: >
+    This task transforms the abstract plot weaknesses identified in the {solution} into concrete, actionable evidence that can be discovered within the narrative. It acts as a forensic architect, meticulously determining the precise form, location, and method of discovery for each critical clue—whether it's a physical item (like a receipt in a handbag), a digital record (like a security logbook), a piece of expert analysis (like a technician's report), or a key contradiction in testimony. By cross-referencing these flaws with the established suspectDossiers from Suspect_dossiers_task , the agent ensures each piece of evidence is logically linked to a character or event. The final clueManifest serves as the investigator's roadmap, providing a complete and logical breadcrumb trail from the initial crime scene to the ultimate solution.For the clueID field, the value must be a string starting with the prefix 'CM' followed by a zero-padded, sequential two-digit number (e.g., 'CM01', 'CM02', etc.) to ensure each clue has a unique identifier.
+  expected_output: ClueManifest
+  agent: Narrative_weaver_agent
+Master_timeline_task:
+  description: >
+    This final task acts as the ultimate case chronologer, responsible for synthesizing all available data into a definitive, ground-truth account of the
+    entire crime. The agent will meticulously weave together information from the {Bullseye} {ExecutionPlan}, {CoverupPlan}, suspectDossiers, 
+    and clueManifest to construct a single, coherent masterTimeline. This process involves chronologically sequencing every critical event—from the 
+    culprit's pre-crime preparations and the planting of false alibis, through a multi-perspective, moment-by-moment breakdown of the crime itself, to 
+    the post-crime actions of evidence disposal and discovery. Each entry is timestamped and linked to the relevant characters and clues, creating a 
+    comprehensive and unimpeachable record that reveals exactly how the crime was committed and how it can be solved.**Crucially, the timeline's scope must strictly conclude with the initial reporting of the crime to the authorities. It must NOT include any actions taken by investigators, as it is a record of the crime's events, not the investigation's process.** Each entry is timestamped and linked to the relevant characters and clues, creating a comprehensive and unimpeachable record of exactly what happened and when.
+
+  expected_output: MasterTimeline
+  agent: Narrative_weaver_agent
+Final_case_file_task:
+  description: >
+    This task serves as the grand synthesizer, tasked with compiling all previously generated components into a single, cohesive case file that serves as the definitive reference for the entire investigation. The agent will integrate the  suspectDossiers, clueManifest, and masterTimeline into a unified document that encapsulates every facet of the case. This comprehensive case file will not only provide a detailed narrative of the crime but also offer insights into the investigative process, ensuring that all elements are logically connected and easily accessible for review. The final output will be a meticulously organized and thoroughly vetted case file that stands as the ultimate resource for understanding and solving the crime.
+  expected_output: >
+    {
+      "suspectDossiers": [
+        {
+          "characterID": "",
+          "name": "",
+          "roleInStory": "",
+          "statedAlibi": "",
+        }
+        ],
+      "clueManifest": [
+        {
+          "clueID": "",
+          "clueTitle": "",
+          "discoveryLocation": "",
+          "relevance":"",
+        }
+        ],
+      "masterTimeline": {
+        "precrime":[
+          {
+            "timestamp": "",
+            "event": ""
+          }
+        ],
+        "crimeExecution":[
+          {
+            "timestamp": "",
+            "event": ""
+          }
+        ],
+        "postcrime":[
+          {
+            "timestamp": "",
+            "event": ""
+          }
+        ]
+    }
+  agent: Narrative_weaver_agent

@@ -1,21 +1,84 @@
+```json
 {
-    "executionPlan": {
-      "executionTitle": "The Spice Diversion",
-      "methodology": "The culprit uses her knowledge of the victim's routine and the flat's layout. She creates a diversion by intentionally using an exotic, overpowering spice (Asafoetida) in the kitchen's air vent, which triggers the victim's smoke alarm and his allergies. While the victim is occupied dealing with the alarm and his coughing fit in the living room, she accesses his study and steals the coins from a known, but not obvious, hiding place.",
-      "toolsUsed": [
-        { "toolName": "High-potency Asafoetida powder", "purpose": "To create a pungent, non-toxic 'smoke' that will reliably trigger the sensitive smoke alarm and irritate the victim." },
-        { "toolName": "A small, handheld fan", "purpose": "To direct the spice powder effectively into the air vent leading to the living room." },
-        { "toolName": "A library ladder (already in the study)", "purpose": "To access the coins, which are hidden inside a hollowed-out book on a high shelf." }
-      ],
-      "crimeLocation": {
-        "primaryLocation": "Anand Menon's luxury flat, Panampilly Nagar, Kochi",
-        "specificArea": "The study, while the victim is distracted in the living room."
+  "ExecutionPlan": {
+    "executionTitle": "The Echo Chamber Heist: A Symbolic Reclamation",
+    "methodology": "The operation, codenamed 'Echo Chamber,' is a meticulously planned psychological intrusion disguised as a high-tech, yet traceless, theft. Its core relies on exploiting Arthur Vance's rigid control, his technologically advanced but inherently fallible security, and his deep-seated need to curate his reality. The plan leverages Elias's intimate knowledge of the apartment and his father's routines, creating a 'vanishing act' that is designed to appear as an inexplicable system anomaly rather than a forced entry. The objective is not just the physical retrieval of the drawing, but the deliberate creation of a psychological void in Arthur's meticulously constructed world, forcing him to confront a suppressed truth. Misdirection is achieved by making the 'glitch' the primary puzzle, diverting attention from the human element, and by the sheer audacity of taking only a single, valueless, yet profoundly significant item.",
+    "toolsUsed": [
+      {
+        "toolName": "Modified 'Smart Plug' / RF Emitter",
+        "purpose": "A commercially available smart plug, subtly modified to house a low-power, directional radio frequency emitter. This device will be pre-placed during a prior visit, disguised as a charging puck or a minimalist decorative object near the main security hub or a critical motion sensor. Its purpose is to emit a brief, localized burst of electromagnetic interference on command, causing a momentary 'glitch' or 'anomaly' in the security system's logs and sensor readings, making it appear as a transient system error rather than a bypass during Elias's entry and internal movement."
       },
-      "crimeTimeline": [
-         { "timestamp": "2025-08-04T19:30:00+05:30", "event": "Maya begins preparing dinner as usual." },
-         { "timestamp": "2025-08-04T20:05:00+05:30", "event": "THE CRIME: Maya uses the fan to blow the spice powder into the vent. The smoke alarm in the living room is triggered." },
-         { "timestamp": "2025-08-04T20:06:00+05:30", "event": "While the victim is disarming the alarm and coughing, Maya slips into the study, uses the ladder to retrieve the coins, and hides them in a container of rice in the kitchen pantry." }
-      ]
-    }
+      {
+        "toolName": "Smartphone with Secure Messaging App",
+        "purpose": "For remote activation of the modified smart plug/RF emitter, and for confirming Arthur's travel schedule and absence via publicly available flight trackers or social media updates (if Arthur is prone to sharing) or through a 'check-in' text message with Arthur prior to his departure."
+      },
+      {
+        "toolName": "High-Precision Jewelers Screwdriver Set",
+        "purpose": "To meticulously open the back panel of the framed drawing without causing any visible damage or stripping screws. This allows for the surgical removal of the artwork while leaving the frame and glass intact."
+      },
+      {
+        "toolName": "Artist's Palette Knife (thin, flexible steel)",
+        "purpose": "To gently separate the fragile crayon drawing from any adhesive or backing paper within the frame, ensuring no tears or damage to the artwork itself. Its flexibility allows for precise maneuvering in tight spaces."
+      },
+      {
+        "toolName": "Small Suction Cups (medical-grade)",
+        "purpose": "To safely handle and lift the glass panel of the frame, preventing fingerprints, smudges, or accidental breakage. These are typically used in delicate laboratory or electronics work."
+      },
+      {
+        "toolName": "Lint-Free Microfiber Cloths & Surgical Gloves",
+        "purpose": "To meticulously wipe down any surfaces touched (frame, glass, tools) and prevent leaving any fingerprints or forensic traces. The gloves ensure no skin cells are left behind."
+      },
+      {
+        "toolName": "Opaque, Acid-Free Archival Envelope",
+        "purpose": "To safely store and transport the retrieved drawing, protecting it from light, moisture, and physical damage. This emphasizes the drawing's symbolic value over its monetary worth."
+      },
+      {
+        "toolName": "Disposable Shoe Covers",
+        "purpose": "To prevent tracking in any external dirt, dust, or fibers into Arthur's pristine apartment, maintaining the illusion of no external intrusion."
+      }
+    ],
+    "crimeLocation": {
+      "locationType": "Penthouse Apartment",
+      "specificArea": "Arthur Vance's ultra-modern Tribeca penthouse, New York"
+    },
+    "crimeTimeline": [
+      {
+        "timeStamp": "2024-07-01T14:00:00Z",
+        "event": "Initial Reconnaissance Visit: Elias visits Arthur's apartment for a pre-arranged family dinner. During this visit, he subtly observes the security system's components (camera angles, motion sensor placement, main hub location), Arthur's routine for arming/disarming, and the specific mounting and frame type of the target drawing. He also discreetly places the modified 'smart plug' RF emitter near the main security panel, disguised as a decorative item."
+      },
+      {
+        "timeStamp": "2024-07-08T10:00:00Z",
+        "event": "Alibi & Confirmation: Elias establishes a robust alibi for the target execution window (e.g., attending an artist's retreat upstate, confirmed by public check-ins). He confirms Arthur's departure for a pre-scheduled international business trip via a 'safe' check-in text and public flight tracking, ensuring Arthur will be out of the country and unreachable for a minimum of 48 hours."
+      },
+      {
+        "timeStamp": "2024-07-09T02:00:00Z",
+        "event": "Travel to Location: Elias departs from his alibi location (e.g., artist's retreat) under the cover of darkness, using pre-arranged, untraceable transport (e.g., a friend's car, cash-paid ride-share from an obscure location) to travel to Tribeca, arriving in the early hours to minimize witnesses."
+      },
+      {
+        "timeStamp": "2024-07-09T03:30:00Z",
+        "event": "Perimeter Assessment & Entry: Elias conducts a final external sweep of the penthouse building for unexpected activity. Using a legitimate key (obtained years ago and kept, or a duplicate made during a prior visit), he enters the building and then the apartment. He immediately dons shoe covers and gloves."
+      },
+      {
+        "timeStamp": "2024-07-09T03:45:00Z",
+        "event": "Security System 'Glitch' Activation: Using his smartphone, Elias remotely activates the pre-placed modified 'smart plug' RF emitter. This sends a localized burst of interference, causing a momentary, self-correcting 'sensor error' or 'communication anomaly' in the security system's logs for approximately 15-20 minutes. This creates a window of obscured internal activity."
+      },
+      {
+        "timeStamp": "2024-07-09T03:50:00Z",
+        "event": "Surgical Extraction: Elias proceeds directly to the wall of drawings. Using the small suction cups, he carefully lifts the glass panel of the target frame. With the jeweler's screwdrivers, he meticulously opens the frame's backing. The thin artist's palette knife is then used to gently separate the 5-year-old crayon drawing from its backing, ensuring no damage. The drawing is immediately placed into the archival envelope."
+      },
+      {
+        "timeStamp": "2024-07-09T04:05:00Z",
+        "event": "Reassembly & Cleaning: The frame's backing is carefully re-secured, and the glass panel is lowered back into place, leaving the empty frame perfectly intact. All surfaces touched (frame, wall, surrounding area) are meticulously wiped down with lint-free cloths to remove any potential forensic traces. The modified 'smart plug' RF emitter is remotely deactivated."
+      },
+      {
+        "timeStamp": "2024-07-09T04:15:00Z",
+        "event": "Exit & Retreat: Elias exits the apartment, ensuring the door locks properly. He removes shoe covers and gloves, placing them in a sealed bag. He then travels back to his alibi location using the same untraceable methods, arriving before anyone could question his absence."
+      },
+      {
+        "timeStamp": "2024-07-11T18:00:00Z",
+        "event": "Discovery (Approximate): Arthur Vance returns from his international trip. Upon his routine inspection of his apartment or simply noticing the prominent display, he discovers the 'vanished' drawing, triggering the intended psychological confrontation with his suppressed past."
+      }
+    ]
   }
-  
+}
+```

@@ -48,8 +48,8 @@ class SolutionCrew:
         """Creates the Solution Crew"""
 
         return Crew(
-            agents=self.agents,  
-            tasks=self.tasks,  
+            agents=self.agents,
+            tasks=self.tasks,
             process=Process.sequential,
             verbose=True,
         )

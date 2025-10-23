@@ -1,21 +1,21 @@
 {
   "bullseyeConcept": {
     "culprit": {
-      "name": "Maya Pillai",
-      "profile": "The victim's seemingly loyal and underpaid personal chef."
+      "name": "Elias Vance",
+      "profile": "A struggling conceptual artist in his late 20s, deeply empathetic but often misunderstood. He has a strained and complex relationship with his father, Arthur. Elias is not a criminal by nature, but is driven by a profound, almost desperate, need for emotional truth and validation regarding his past."
     },
     "victim": {
-      "name": "Anand Menon",
-      "profile": "A wealthy, retired NRI businessman who collects rare historical artifacts."
+      "name": "Arthur Vance",
+      "profile": "Elias's father. A highly successful, emotionally guarded, and somewhat narcissistic corporate executive in his late 50s. His ultra-modern Tribeca penthouse is a testament to minimalist luxury, filled with 'curated' art, including a wall of framed childhood drawings from Elias, displayed almost as trophies of his 'successful' parenting."
     },
     "crime": {
-      "location": "Luxury Flat in Kochi",
-      "object": "A set of antique Travancore-era gold coins.",
-      "description": "Theft of a specific, high-value collection."
+      "location": "Arthur Vance's penthouse apartment in Tribeca, New York",
+      "object": "A single, small, crudely drawn crayon drawing of a house with a disproportionately large, dark storm cloud above it, created by Elias when he was 5 years old. It was framed amongst other, more cheerful childhood artworks on a prominent wall.",
+      "description": "The theft is surgical and precise. No other items in the meticulously organized apartment are disturbed. The specific drawing is carefully removed from its frame, leaving the empty frame and glass intact, making it appear as if the drawing simply vanished. The apartment's high-tech security system shows no forced entry, only a brief, inexplicable glitch or bypass during the exact time of the theft, indicating an inside knowledge or access."
     },
     "motive": {
-      "primary": "Family Debt",
-      "description": "The culprit, Maya, is not a greedy thief. Her family in the village is about to lose their ancestral land due to a predatory loan. Stealing the coins is her desperate, last-resort attempt to save her family's home and honor."
+      "primary": "Reclamation of a suppressed childhood truth and emotional validation from his father.",
+      "description": "The drawing holds no monetary value; its worth is entirely symbolic and evidentiary. It is the only physical artifact directly linked to a specific, deeply traumatic childhood event (e.g., a family crisis, a period of severe neglect, or a significant accident) that Arthur has completely suppressed, denied, or deliberately distorted from his memory and narrative. Elias, as a child, drew it immediately after this event. For Elias, this drawing represents his stolen childhood truth, his father's emotional abandonment, and the profound burden of a memory he's carried alone. He isn't stealing *from* his father; he is reclaiming a piece of *himself* that his father's denial has held captive. The 'theft' is a desperate, artistic act to force a confrontation, to shatter his father's carefully constructed reality, or to finally sever himself from the emotional weight of that lie, thus taking back his own story and identity."
     }
   }
 }

@@ -1,0 +1,20 @@
+Crime_execution_design_task:
+  description: >
+    Create a detailed, tactical,creative, fictional execution plan for the crime described in {plot}.
+     The plan must include sequence of steps, tools used, locations, and timeline(Use absolute timestamps where possible (ISO-8601)).
+     The plan should reflect a clever, devious, and unpredictable mastermind.
+    - Use misdirection, diversions, and psychological leverage.
+    - Every day Tools should be used in unexpected or ingenious,creative ways.Avoid generic,less relevant, bland lists unless the narrativeUse explains a creative, non-operational role.
+    - Adjust sophistication based on crime type and location: rural crimes simpler, urban/complex crimes more multi-layered.
+    - The methodology should make the plan non-obvious and not easily anticipated by the victim or bystanders.
+
+  expected_output: CrimeExecution
+  agent: Criminal_master_mind_agent
+Crime_coverup_plan_task:
+  description: >
+    Produce a brilliant, fictional, and non-actionable cover-up plan for the executed crime
+    using the provided inputs {plot} (bullseye concept) and executionPlan from crime execution design task.
+    The cover-up should read like the work of an expert strategist: it must be clever, plausible,
+    resilient to initial scrutiny, and tailored to the sophistication and context of the execution plan.
+  expected_output: CrimeCoverup
+  agent: Criminal_master_mind_agent

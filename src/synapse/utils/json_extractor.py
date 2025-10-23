@@ -8,7 +8,7 @@ class JSONExtractor:
     """Utility for reading a JSON file and extracting specific keys from a nested object path.
 
     Example:
-        extractor = JSONExtractor(file_path="Plot.json", nested_path=["bullseyeConcept"]) 
+        extractor = JSONExtractor(file_path="Plot.json", nested_path=["bullseyeConcept"])
         data = extractor.extract_keys(["victim", "crime"])  # returns dict
         text = extractor.extract_keys_or_fallback(["victim", "crime"], fallback_json="{}")  # returns JSON string
     """
